@@ -1,0 +1,30 @@
+{
+  "name": "ya.music-client",
+  "version": "1.0.0",
+  "description": "Yandex music desktop client for linux",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist:linux": "electron-builder --linux"
+  },
+  "keywords": [],
+  "author": "Nick Obukhov <obuhoff2016@yandex.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.0.2",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "electron-tray-window": "^1.2.7"
+  },
+  "build": {
+    "appId": "com.obuhoff2016.music-client",
+    "linux": {
+      "target": [
+        "deb",
+        "rpm",
+        "snap"
+      ]
+    }
+  }
+}

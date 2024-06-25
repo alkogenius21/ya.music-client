@@ -1,0 +1,17 @@
+{
+    "productName": "Ya.Music client",
+    "appId": "com.yamusic.client",
+    "homepage": "https://example.com",
+    "author": {
+      "name": "Nick Obukhov",
+      "email": "obuhoff2016@yandex.ru"
+    },
+    "linux": {
+      "target": "deb",
+      "maintainer": {
+        "name": "Nick Obukhov",
+        "email": "obuhoff2016@yandex.ru"
+      }
+    }
+  }
+  
