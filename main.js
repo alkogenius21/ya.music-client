@@ -16,7 +16,7 @@ function createWindow () {
     icon: iconPath
   });
 
-  win.loadURL('https://music.yandex.ru');
+  win.loadURL('https://next.music.yandex.ru/');
 
   win.once('ready-to-show', () => {
     win.show();

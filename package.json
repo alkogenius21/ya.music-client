@@ -16,7 +16,8 @@
     "electron-builder": "^24.13.3"
   },
   "dependencies": {
-    "electron-tray-window": "^1.2.7"
+    "electron-tray-window": "^1.2.7",
+    "ya.music-client": "file:"
   },
   "build": {
     "appId": "com.obuhoff2016.music-client",
@@ -35,6 +36,6 @@
           ]
         }
       ]
-  }
+    }
   }
 }
